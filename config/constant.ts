@@ -32,15 +32,15 @@ export const FOLDER_APP = {
   },
   LOADING_DEEPER: {
     CASE1: {
-      PAGE: "app/3-loading-deeper/case-1/page",
       LOADING: "app/3-loading-deeper/case-1/loading",
+      PAGE: "app/3-loading-deeper/case-1/page",
     },
     CASE2: {
-      LAYOUT: "app/3-loading-deeper/case-2/loading",
+      LAYOUT: "app/3-loading-deeper/case-2/layout",
       PAGE: "app/3-loading-deeper/case-2/page",
     },
     CASE3: {
-      LAYOUT: "app/3-loading-deeper/case-3/loading",
+      LAYOUT: "app/3-loading-deeper/case-3/layout",
       PAGE: "app/3-loading-deeper/case-3/page",
     },
     LAYOUT: "app/3-loading-deeper/layout",
@@ -53,5 +53,28 @@ export const FOLDER_APP = {
     NOT_FOUND: "app/4-not-found/not-found",
     PAGE: "app/4-not-found/page",
     TEMPLATE: "app/4-not-found/template",
+  },
+  NOT_FOUND_DEEPER: {
+    CASE1: {
+      LAYOUT: "app/4-not-found-deeper/case-1/layout",
+      NOT_FOUND: "app/4-not-found-deeper/case-1/not-found",
+      PAGE: "app/4-not-found-deeper/case-1/page",
+      TEMPLATE: "app/4-not-found-deeper/case-1/template",
+    },
+    CASE2: {
+      LAYOUT: "app/4-not-found-deeper/case-2/layout",
+      NOT_FOUND: "app/4-not-found-deeper/case-2/not-found",
+      PAGE: "app/4-not-found-deeper/case-2/page",
+    },
+    CASE3: {
+      LAYOUT: "app/4-not-found-deeper/case-3/layout",
+      NOT_FOUND: "app/4-not-found-deeper/case-3/not-found",
+      PAGE: "app/4-not-found-deeper/case-3/page",
+      TEMPLATE: "app/4-not-found-deeper/case-3/template",
+    },
+    LAYOUT: "app/4-not-found-deeper/layout",
+    NOT_FOUND: "app/4-not-found-deeper/not-found",
+    PAGE: "app/4-not-found-deeper/page",
+    TEMPLATE: "app/4-not-found-deeper/template",
   },
 };

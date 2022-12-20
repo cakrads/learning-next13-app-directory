@@ -134,6 +134,9 @@ a {
 .next-convention a {
   text-decoration: underline;
 }
+.next-convention ul {
+  margin-left: 20px;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
