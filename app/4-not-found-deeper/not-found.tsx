@@ -13,8 +13,8 @@ export default function NotFound() {
       <b>Note - This Not Found will show cause :</b>
       <br />
       <ul>
-        <li>called from notFound() in case-2/layout.ts</li>
-        <li>called from notFound() in case-3/template.ts</li>
+        <li>called from notFound() in case-2/layout.tsx</li>
+        <li>called from notFound() in case-3/template.tsx</li>
       </ul>
       <br />
       <br />

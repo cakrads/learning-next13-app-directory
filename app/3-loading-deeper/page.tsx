@@ -22,7 +22,7 @@ export default async function Page() {
       <section>
         <h3>Case 2</h3>
         <p>
-          What happen when do fetch in layout.ts.
+          What happen when do fetch in layout.tsx.
           <br />
           <Link href="3-loading-deeper/case-2">Check {">"}</Link>
         </p>
@@ -30,7 +30,7 @@ export default async function Page() {
       <section>
         <h3>Case 3</h3>
         <p>
-          What happen when do fetch in layout.ts and page.ts.
+          What happen when do fetch in layout.tsx and page.ts.
           <br />
           <Link href="3-loading-deeper/case-3">Check {">"}</Link>
         </p>

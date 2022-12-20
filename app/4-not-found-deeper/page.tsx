@@ -20,7 +20,7 @@ export default async function Page() {
       <section>
         <h3>Case 2</h3>
         <p>
-          What happen when call notFound() in layout.ts?
+          What happen when call notFound() in layout.tsx?
           <br />
           <Link href="4-not-found-deeper/case-2">Check {">"}</Link>
         </p>
@@ -28,7 +28,7 @@ export default async function Page() {
       <section>
         <h3>Case 3</h3>
         <p>
-          What happen when call notFound() in template.ts?
+          What happen when call notFound() in template.tsx?
           <br />
           <Link href="4-not-found-deeper/case-3">Check {">"}</Link>
         </p>

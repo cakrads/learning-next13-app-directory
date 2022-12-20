@@ -77,4 +77,40 @@ export const FOLDER_APP = {
     PAGE: "app/4-not-found-deeper/page",
     TEMPLATE: "app/4-not-found-deeper/template",
   },
+  ERROR: {
+    CASE1: {
+      LAYOUT: "app/5-error/case-1/layout",
+      ERROR: "app/5-error/case-1/error",
+      PAGE: "app/5-error/case-1/page",
+      TEMPLATE: "app/5-error/case-1/template",
+    },
+    CASE2: {
+      LAYOUT: "app/5-error/case-2/layout",
+      PAGE: "app/5-error/case-2/page",
+      TEMPLATE: "app/5-error/case-2/template",
+    },
+    CASE3: {
+      LAYOUT: "app/5-error/case-3/layout",
+      ERROR: "app/5-error/case-3/error",
+      LOADING: "app/5-error/case-3/lading",
+      PAGE: "app/5-error/case-3/page",
+      TEMPLATE: "app/5-error/case-3/template",
+    },
+    CASE4: {
+      DYNAMIC: {
+        LAYOUT: "app/5-error/case-4/dynamic/layout",
+        ERROR: "app/5-error/case-4/dynamic/error",
+        LOADING: "app/5-error/case-4/dynamic/lading",
+        PAGE: "app/5-error/case-4/dynamic/page",
+        TEMPLATE: "app/5-error/case-4/dynamic/template",
+      },
+      LAYOUT: "app/5-error/case-4/layout",
+      PAGE: "app/5-error/case-4/page",
+      TEMPLATE: "app/5-error/case-4/template",
+    },
+    LAYOUT: "app/5-error/layout",
+    ERROR: "app/5-error/error",
+    PAGE: "app/5-error/page",
+    TEMPLATE: "app/5-error/template",
+  },
 };

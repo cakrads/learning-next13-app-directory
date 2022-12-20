@@ -9,7 +9,7 @@ export default async function Page() {
     <div className="next-convention">
       <span>{FOLDER_APP.LOADING_DEEPER.CASE3.PAGE}</span>
       <br />
-      I try the diffrent function in layout.ts and page.ts, with both delay 3
+      I try the diffrent function in layout.tsx and page.ts, with both delay 3
       seconds. <br />
       The result is, the loading still shown in 3 seconds, I will try discus in{" "}
       {""}
@@ -24,7 +24,7 @@ export default async function Page() {
 
 /** For fetch
  *       
- * {/* layout.ts use doLoading(), and page.ts use doLoading2(). <br />
+ * {/* layout.tsx use doLoading(), and page.ts use doLoading2(). <br />
   The console result like this:<br />
   doLoading2() start 1671526178787<br />
   doLoading() start 1671526178788<br />

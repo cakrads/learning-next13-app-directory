@@ -13,7 +13,7 @@ export default function Page({ params }: TLayoutProps) {
       </span>
       <br />
       The `Dynamic Path` can also get in page from props.params. <br />
-      But, in `template.ts`, I can`t get props.params (version 13.0.6).
+      But, in `template.tsx`, I can`t get props.params (version 13.0.6).
       <br />
     </div>
   );
