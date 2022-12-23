@@ -113,4 +113,33 @@ export const FOLDER_APP = {
     PAGE: "app/5-error/page",
     TEMPLATE: "app/5-error/template",
   },
+  FETCH: {
+    CASE1: {
+      PAGE: "app/6-fetch/case-1/page",
+      LOADING: "app/6-fetch/case-1/loading",
+      TEMPLATE: "app/6-fetch/case-1/template",
+    },
+    CASE2: {
+      LAYOUT: "app/6-fetch/case-2/layout",
+      LOADING: "app/6-fetch/case-2/loading",
+      PAGE: "app/6-fetch/case-2/page",
+      TEMPLATE: "app/6-fetch/case-2/template",
+    },
+    CASE3: {
+      LAYOUT: "app/6-fetch/case-3/layout",
+      LOADING: "app/6-fetch/case-3/lading",
+      PAGE: "app/6-fetch/case-3/page",
+    },
+    CASE4: {
+      LAYOUT: "app/6-fetch/case-4/layout",
+      PAGE: "app/6-fetch/case-4/page",
+      TEMPLATE: "app/6-fetch/case-4/template",
+    },
+    LAYOUT: "app/6-fetch/layout",
+    LOADING: "app/6-fetch/loading",
+    PAGE: "app/6-fetch/page",
+    TEMPLATE: "app/6-fetch/template",
+  },
 };
+
+export const API_URL = "http://localhost:3000/api";
