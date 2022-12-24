@@ -22,7 +22,7 @@ export default function Page() {
           1. Refresh this page, and click Check imadiately. <br />
           2. Refresh this page, wait 1 second, and click Check button. <br />
           3. Refresh this page, wait 3 seconds, and click Check. <br />
-          4. Delete loading.tsx in fetch-6 folder, refresh this page, and click
+          4. Delete loading.tsx in 6-fetch folder, refresh this page, and click
           Check imadiately.
           <br />
           <Link href="6-fetch/case-2">Check {">"}</Link>
@@ -32,6 +32,8 @@ export default function Page() {
         <h3>Case 3</h3>
         <p>
           What happen when do fetch in layout.tsx and page.ts?
+          <br />
+          Note: fetch() in layout.ts and page.ts has diffrent end-point.
           <br />
           <Link href="6-fetch/case-3">Check {">"}</Link>
         </p>

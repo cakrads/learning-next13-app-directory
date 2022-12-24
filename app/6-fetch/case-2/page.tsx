@@ -7,13 +7,13 @@ export default function Page() {
       <span>{FOLDER_APP.FETCH.CASE2.PAGE}</span>
       The behavior will be:
       <br />
-      1. It will show loading from fetch-6 folder, not from fetch-6/case-2
+      1. It will show loading from 6-fetch folder, not from 6-fetch/case-2
       folder
       <br />
       this cause the `{FOLDER_APP.FETCH.CASE2.LAYOUT}` already execute when the
       root ({FOLDER_APP.FETCH.PAGE}) has been access. <br />
       And in that time, the promise will call available loading, which is the
-      loading in fetch-6.
+      loading in 6-fetch.
       <br />
       <br />
       2. The loading will show only 2 seconds
@@ -24,7 +24,7 @@ export default function Page() {
       3. Loading not show
       <br />
       The fetch is already finished, but you will still see loading. This
-      loading is not from fetch-6 folder, but from the case-2 folder. next13
+      loading is not from 6-fetch folder, but from the case-2 folder. next13
       will show loading first, if the loading is available, after that will show
       the page.
       <br />
@@ -34,7 +34,7 @@ export default function Page() {
       As we know, the layout will execute in the root, and when we want to
       access it, there`s no return. In this case, next.js should find `loading`
       and will show it. Unfortunately, there`s no loading in folder /app nor
-      folder /fetch-6, so it still shows fetch-6 page until fetch() is done,
+      folder /6-fetch, so it still shows 6-fetch page until fetch() is done,
       then shows case-2 page. So, it`s better to have `loading` in the
       app/folder to handle loading globally.
       <br />

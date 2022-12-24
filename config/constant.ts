@@ -130,11 +130,6 @@ export const FOLDER_APP = {
       LOADING: "app/6-fetch/case-3/lading",
       PAGE: "app/6-fetch/case-3/page",
     },
-    CASE4: {
-      LAYOUT: "app/6-fetch/case-4/layout",
-      PAGE: "app/6-fetch/case-4/page",
-      TEMPLATE: "app/6-fetch/case-4/template",
-    },
     LAYOUT: "app/6-fetch/layout",
     LOADING: "app/6-fetch/loading",
     PAGE: "app/6-fetch/page",
